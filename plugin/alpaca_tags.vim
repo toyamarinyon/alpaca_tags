@@ -33,7 +33,7 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 if !exists('g:alpaca_tags#config')
-  let g:alpaca_update_tags#config = {
+  let g:alpaca_tags#config = {
         \ '_' : '-R --sort=yes',
         \ }
 endif
